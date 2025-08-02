@@ -1,0 +1,8 @@
+﻿
+// Bootstrap importieren (Pfad anpassen)
+@import "./bootstrap-main/scss/bootstrap";
+
+
+body {
+  background-color: $primary; // Bootstrap-Variable als Beispiel
+}
