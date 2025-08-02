@@ -1,8 +1,39 @@
 ﻿
+@import url('../fonts/fonts.css');
+
+
+$primary:   HotPink;
+$secondary: Purple;
+$success:   lime;
+$info:      lightblue;
+$warning:   yellow;
+$danger:    crimson;
+$light:     lightgrey;
+$dark:      darkgrey;
+$background-primary: Snow;
+$background-secondary: black;
+
+$font-family-base: Libertinus;
+$headings-font-family: Fjalla;
+$accent-font-family: Courier New;
+
+main {
+	background-color: $background-primary;
+}
+
+span {
+	font-family: $accent-font-family;
+}
+
+.text-accent {
+	font-family: $accent-font-family
+}
+
 // Bootstrap importieren (Pfad anpassen)
 @import "./bootstrap-main/scss/bootstrap";
 
 
-body {
-  background-color: $primary; // Bootstrap-Variable als Beispiel
+
+.bg-secondary {
+	background-color: $background-secondary !important;
 }

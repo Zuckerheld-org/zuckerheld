@@ -5,7 +5,6 @@
     <title>Modul</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.css" />
 	<link rel="stylesheet" href="./style.css" />
 	<script src="./script.js" defer></script>
@@ -13,11 +12,11 @@
 <body>
 	<main class="d-flex flex-column justify-content-center align-items-center p-5">
 		<h1>Design System</h1>
-		<div class="design-block design-buttons d-flex flex-column">
+		<div class="design-block design-buttons d-flex flex-column" style="width: 100%">
 			<div class="design-items d-flex align-items-center" style="gap: 1rem">
 				<h2>Überschrift</h2>
 				<p>Text</p>
-				<span>Akzent</span>
+				<p class="text-accent">Akzent</p>
 			</div>
 			<div class="design-items">
 				<h2>Filled - Buttons</h2>
@@ -176,7 +175,7 @@
 					Tooltip on top
 				</button>
 			</div>
-			<div class="design-system">
+			<div class="design-item bg-primary-subtle p-4">
 				<h2>Hintergundfarben</h2>
 				<div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
 				<div class="p-3 mb-2 bg-primary-subtle text-primary-emphasis">.bg-primary-subtle</div>
